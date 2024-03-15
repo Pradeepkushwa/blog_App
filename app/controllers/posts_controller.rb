@@ -1,5 +1,3 @@
-ActiveStorage::Current.url_options = Rails.application.routes.default_url_options
-
 class PostsController < ApplicationController
 	skip_before_action :verify_authenticity_token
     before_action :authenticate_request
